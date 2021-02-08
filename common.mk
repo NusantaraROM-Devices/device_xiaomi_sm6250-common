@@ -238,9 +238,7 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # XiaomiParts
-ifeq ($(SHIP_PARTS),true)
 PRODUCT_PACKAGES += \
     XiaomiParts \
     init.xiaomiparts.rc \
     init.xiaomiparts.sh
-endif
