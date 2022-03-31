@@ -63,7 +63,7 @@ vendor/lib/rfsa/adsp/misound_res.bin
 vendor/lib/rfsa/adsp/tas25xx_TI_0.bin
 
 # Alarm
--product/app/PowerOffAlarm/PowerOffAlarm.apk
+product/app/PowerOffAlarm/PowerOffAlarm.apk
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
@@ -355,8 +355,8 @@ vendor/etc/charger_fstab.qti
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
 # CNE
--vendor/app/CneApp/CneApp.apk
--vendor/app/IWlanService/IWlanService.apk
+vendor/app/CneApp/CneApp.apk
+vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
 vendor/etc/cne/profileSlm.xml
 vendor/etc/cne/slm.conf
@@ -463,7 +463,7 @@ system_ext/lib64/libdpmctmgr.so
 system_ext/lib64/libdpmfdmgr.so
 system_ext/lib64/libdpmframework.so
 system_ext/lib64/libdpmtcm.so
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
+system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
@@ -507,7 +507,7 @@ vendor/lib64/libtrustedapploader.so
 # DRM (Widevine)
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 vendor/lib64/libwvhidl.so
 
 # DSP
@@ -530,7 +530,7 @@ vendor/lib64/hw/fingerprint.fpc.default.so
 # FM
 system_ext/lib64/fm_helium.so
 system_ext/lib64/libfm-hci.so
--system_ext/lib64/vendor.qti.hardware.fm@1.0.so
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/ftm_fm_lib.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
@@ -614,7 +614,7 @@ vendor/firmware/a618_gmu.bin
 vendor/firmware/a630_sqe.fw
 
 # GPS
--vendor/app/CACertService/CACertService.apk
+vendor/app/CACertService/CACertService.apk
 vendor/bin/garden_app
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
@@ -633,8 +633,8 @@ vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
 vendor/etc/izat.conf
 vendor/etc/lowi.conf
 vendor/etc/sap.conf
--vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
--vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
+vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
+vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
 vendor/etc/xtra_root_cert.pem
 vendor/etc/xtwifi.conf
 vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so
@@ -718,13 +718,13 @@ vendor/lib/libqsap_sdk.so
 vendor/lib64/libqsap_sdk.so
 
 # HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # IMS
--system_ext/app/uceShimService/uceShimService.apk
+system_ext/app/uceShimService/uceShimService.apk
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml
@@ -755,7 +755,7 @@ system_ext/lib64/vendor.qti.ims.callinfo@1.0.so
 system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.ims.factory@1.0.so
--system_ext/priv-app/ims/ims.apk
+system_ext/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
@@ -928,8 +928,8 @@ vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti
 vendor/bin/npu_launcher
 vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml
+vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml
+vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml
 vendor/lib/libhta_hexagon_runtime.so
 vendor/lib/libnpu.so
 vendor/lib/unnhal-acc-hta.so
@@ -1071,12 +1071,12 @@ vendor/etc/qdcm_calib_data_ft8756_video_mode_dsi_huaxing_panel.xml
 vendor/etc/qdcm_calib_data_nt36675_video_mode_dsi_tianma_panel.xml
 
 # RIL
--system_ext/app/DeviceInfo/DeviceInfo.apk
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
+system_ext/app/DeviceInfo/DeviceInfo.apk
+system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/telephonyservice.xml
 system_ext/framework/qcrilhook.jar
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/ATFWD-daemon
 vendor/bin/adpl
 vendor/bin/hw/qcrild
@@ -1267,7 +1267,7 @@ vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalfeature.so
 
 # Time services
--vendor/app/TimeService/TimeService.apk
+vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib/libtime_genoff.so
@@ -1289,7 +1289,7 @@ vendor/firmware/Drv2624Date.ini
 vendor/bin/cnss-daemon
 
 # WiFi Display
--framework/WfdCommon.jar
+framework/WfdCommon.jar
 system_ext/bin/rtspclient
 system_ext/bin/rtspserver
 system_ext/bin/wfdservice
@@ -1342,7 +1342,7 @@ system_ext/lib64/libwfduibcsinkinterface.so
 system_ext/lib64/libwfduibcsrc.so
 system_ext/lib64/libwfduibcsrcinterface.so
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
--system_ext/priv-app/WfdService/WfdService.apk
+system_ext/priv-app/WfdService/WfdService.apk
 vendor/bin/wfdhdcphalservice
 vendor/bin/wfdvndservice
 vendor/bin/wifidisplayhalservice
